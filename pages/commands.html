@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../assets/logo.gif">
+    <title>Disk Music</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="/">
+                <img src="../assets/logo.gif" alt="" width="50" height="50" class="rounded-circle"> &nbsp;
+                <span>Disk Music</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#/">Commands</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./team.html">Staff</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="linksdrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Links
+                        </a>
+                        <ul class="dropdown-menu bgn" aria-labelledby="linksdrop">
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="https://discord.com/api/oauth2/authorize?client_id=896806005600550943&permissions=8&scope=bot" target="_blank">Invite
+                                    Bot</a>
+                            </li>
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="" target="https://discord.gg/KceXDPKUsB">Support
+                                    Server</a></li>
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="./faq.html">FAQ</a></li>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-muted font-weight-bold"
+                                    href="https://github.com/ManuHD12" target="_blank">Official Github</a></li>
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="">View
+                                    Documentation</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex ml-auto" id="headerlogin">
+                    <li class="nav-item" style="list-style: none;">
+                        <a class="nav-link btn btn-outline-secondary login" href="/login">Login pronto</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="jumbotron text-center bg-transparent">
+        <h1 class="commandstitle">Commands</h1>
+        <p class="lead commandssub">Ver los comandos para DIscord Bot Beta web</p>
+        <hr>
+        <input id="myInput" type="text" class="searchbox" placeholder="Search pronto">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="border"></div>
+        <br>
+        <br>
+        <br>
+        <div id="myCmd">
+            <br>
+            <button type="button" class="collapsible">setprefix<span> - nomprobar/cambiar el prefijo del bot</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoria:</h4>
+                <p style="color: aqua;">Administrador</p>
+                <h4 style="color: #cccccc;">en uso prefix:</h4>
+                <p>?</p>
+                <h4 style="color: #cccccc;">Ejemplo:</h4>
+                <p>M!</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">ayuda<span> - Revisa la lista de comandos</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoria:</h4>
+                <p style="color: rgb(19, 182, 160);">General</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>?ayuda</p>
+                <h4 style="color: #cccccc;">Examples:</h4>
+                <p>?ayuda [comando]</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">lista de comandos<span>- lista de comandos </span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Categoria:</h4>
+                <p style="color: rgb(242, 44, 232);">ayuda</p>
+                <h4 style="color: #cccccc;">comandos:</h4>
+                <p>?ayuda [command]: Información sobre el bot.
+?bassboost [none|low|medium|high]: Habilita el efecto de audio de refuerzo de graves.
+
+?bump: Mueve una pista al principio de la cola.
+
+?clear: Borra la cola del servidor.
+
+?config: Edita la configuración del bot.
+
+?disconnect: Detenga la música y salga del canal de voz.
+
+?grab: Guarda la canción actual en sus mensajes directos.
+
+?invite: Para invitarme a su servidor.
+
+?loop: Repite la canción actual.
+
+?loopqueue: Repite toda la cola.
+
+?lyrics [Song Name]: Muestra la letra de la canción buscada.
+
+?move: Mueve una pista a una posición específica.
+
+?nowplaying: Vea qué canción se está reproduciendo actualmente.
+
+?pause: Pausa la música.
+
+?play [song]: Toca tus canciones favoritas.
+
+?queue: Muestra todas las canciones actualmente en cola.
+
+?remove [number]: Elimina una canción de la cola.
+
+?resume: Reanuda la música.
+
+?search [song]: Muestra un resultado de canciones según la consulta de búsqueda.
+
+?seek [time s/m/h]: Busca una posición en la canción.
+
+?shuffle: Mezclar la cola.
+
+?skip: Salta la canción actual.
+
+?skipto [number]: Salta a una canción en la cola.
+
+?stats: Obtén información sobre el bot.
+
+?volume [volume]: Comprueba o cambia el volumen actual.
+
+?youtube: Inicie una sesión de YouTube Together.
+</p>
+ 
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer class="mastfoot mb-auto">
+            <div class="container-fluid mb-auto">
+                <div class="row d-flex justify-content-center">
+                    <div class="">
+                        <p style="font-size: 19px; padding: 0px; margin: 0px;"><a href="https://discord.gg/KceXDPKUsB"
+                                style="text-decoration: none; color: white;">Hecho por Manu💖</a></br>Disk Music © 2021. Todos Derechos reservados..</br>[<a href="./license.html"><b>Terms Of Use</b></a>]</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
